@@ -12,5 +12,4 @@ def get_db_connection():
         host=os.getenv('DB_HOST'),
         port=os.getenv('DB_PORT')
     )
-
     return conexao
